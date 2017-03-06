@@ -2,13 +2,18 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
 
 @pytest.fixture
 def driver (request):
-    wd = webdriver.Chrome()
+    #firefox_binary= FirefoxBinary("c:\\Program Files\\Nightly\\firefox.exe")
+   # wd = webdriver.Firefox(firefox_binary=firefox_binary)
+    wd = webdriver.Firefox()
     request.addfinalizer(wd.quit)
     return wd
+
+
 
 def test_example(driver):
     driver.get("http://www.google.com/")
