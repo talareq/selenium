@@ -1,0 +1,24 @@
+[
+  {
+    "postcode": "",
+    "id": null,
+    "password": "",
+    "city": "",
+    "py/object": "model.user.User",
+    "email": "",
+    "firstname": "",
+    "phone": "",
+    "lastname": ""
+  },
+  {
+    "postcode": "32-600",
+    "id": null,
+    "password": "",
+    "city": "cityLg X",
+    "py/object": "model.user.User",
+    "email": "email@zl.com",
+    "firstname": "firstname4N",
+    "phone": null,
+    "lastname": "lastnameCsbe9nj"
+  }
+]
