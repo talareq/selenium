@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e586061-dff8-4d0d-ad23-e9676ecd1368" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/application.py" afterPath="$PROJECT_DIR$/application/application.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/user.json" afterPath="$PROJECT_DIR$/data/user.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generator/user.py" afterPath="$PROJECT_DIR$/generator/user.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helper/litecard_helper.py" afterPath="$PROJECT_DIR$/helper/litecard_helper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/user.py" afterPath="$PROJECT_DIR$/model/user.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_new_product.py" afterPath="$PROJECT_DIR$/add_new_product.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +20,28 @@
       <file leaf-file-name="add_new_product.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/add_new_product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="323">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="litecard_helper.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helper/litecard_helper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zone_checker.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zone_checker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -64,11 +79,11 @@
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/data/user.json" />
         <option value="$PROJECT_DIR$/create_new_user.py" />
-        <option value="$PROJECT_DIR$/add_new_product.py" />
         <option value="$PROJECT_DIR$/application/application.py" />
         <option value="$PROJECT_DIR$/model/user.py" />
         <option value="$PROJECT_DIR$/generator/user.py" />
         <option value="$PROJECT_DIR$/helper/litecard_helper.py" />
+        <option value="$PROJECT_DIR$/add_new_product.py" />
       </list>
     </option>
   </component>
@@ -207,7 +222,7 @@
       <recent name="C:\Devel\selenium\helper" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in create_new_user.py">
+  <component name="RunManager" selected="Python tests.py.test in add_new_product.py">
     <configuration default="false" name="py.test in create_new_user.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,23 +245,6 @@
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="application" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="selenium" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application/application.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="user" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -298,6 +296,30 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_new_user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in add_new_product.py" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="selenium" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/add_new_product.py" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -436,18 +458,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in create_new_user.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python.application" />
-      <item index="2" class="java.lang.String" itemvalue="Python.user" />
-      <item index="3" class="java.lang.String" itemvalue="Python.user (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.create_new_user" />
+      <item index="1" class="java.lang.String" itemvalue="Python.user" />
+      <item index="2" class="java.lang.String" itemvalue="Python.user (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.create_new_user" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in add_new_product.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in create_new_user.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.user (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.create_new_user" />
-        <item index="3" class="java.lang.String" itemvalue="Python.user" />
-        <item index="4" class="java.lang.String" itemvalue="Python.application" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in add_new_product.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in create_new_user.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.user (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.create_new_user" />
+        <item index="4" class="java.lang.String" itemvalue="Python.user" />
       </list>
     </recent_temporary>
   </component>
@@ -465,34 +487,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_create_new_user_py - 2017.03.17 at 16h 54m 30s.xml">
-      <configuration name="py.test in create_new_user.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_product_py - 2017.03.19 at 17h 04m 02s.xml">
+      <configuration name="py.test in add_new_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_create_new_user_py - 2017.03.17 at 16h 55m 04s.xml">
-      <configuration name="py.test in create_new_user.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_product_py - 2017.03.19 at 17h 08m 49s.xml">
+      <configuration name="py.test in add_new_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_create_new_user_py - 2017.03.17 at 16h 55m 41s.xml">
-      <configuration name="py.test in create_new_user.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_product_py - 2017.03.19 at 17h 10m 20s.xml">
+      <configuration name="py.test in add_new_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_create_new_user_py - 2017.03.17 at 16h 55m 59s.xml">
-      <configuration name="py.test in create_new_user.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_product_py - 2017.03.19 at 17h 11m 23s.xml">
+      <configuration name="py.test in add_new_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_create_new_user_py - 2017.03.19 at 16h 29m 43s.xml">
-      <configuration name="py.test in create_new_user.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_product_py - 2017.03.19 at 17h 12m 17s.xml">
+      <configuration name="py.test in add_new_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_create_new_user_py - 2017.03.19 at 16h 31m 44s.xml">
-      <configuration name="py.test in create_new_user.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_product_py - 2017.03.19 at 17h 13m 43s.xml">
+      <configuration name="py.test in add_new_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_create_new_user_py - 2017.03.19 at 16h 35m 50s.xml">
-      <configuration name="py.test in create_new_user.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_product_py - 2017.03.19 at 17h 13m 58s.xml">
+      <configuration name="py.test in add_new_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_create_new_user_py - 2017.03.19 at 16h 38m 16s.xml">
-      <configuration name="py.test in create_new_user.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_create_new_user_py - 2017.03.19 at 16h 38m 56s.xml">
-      <configuration name="py.test in create_new_user.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_product_py - 2017.03.19 at 17h 15m 13s.xml">
+      <configuration name="py.test in add_new_product.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_create_new_user_py - 2017.03.19 at 16h 40m 03s.xml">
+      <configuration name="py.test in create_new_user.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_create_new_user_py - 2017.03.19 at 17h 03m 50s.xml">
       <configuration name="py.test in create_new_user.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -505,11 +527,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46401718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46401718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4038668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4038668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -524,7 +546,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="78" />
+      <option name="time" value="81" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -664,20 +686,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/env/zone_checker.py" />
-    <entry file="file://$PROJECT_DIR$/menu_checker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zone_checker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../homework3/test/test_del_group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -696,13 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/label_checker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -776,20 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_name.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu_click.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../homework3/test/test_add_new_contact.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -839,25 +826,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
+        <state relative-caret-position="-235">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helper/litecard_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -869,10 +844,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/label_checker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu_checker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu_click.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper/litecard_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zone_checker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/add_new_product.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="323">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding />
         </state>
       </provider>
