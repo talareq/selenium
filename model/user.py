@@ -3,9 +3,10 @@ from sys import maxsize
 
 class User:
 
-    def __init__(self, firstname=None, lastname=None, postcode=None, city=None, email=None, phone=None, password=None, id=None):
+    def __init__(self, firstname=None, lastname=None, address1=None, postcode=None, city=None, email=None, phone=None, password=None, id=None):
         self.firstname = firstname
         self.lastname = lastname
+        self.address1 = address1
         self.postcode = postcode
         self.city = city
         self.email = email

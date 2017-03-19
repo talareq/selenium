@@ -17,10 +17,15 @@ class LitecardHelper:
         driver = self.app.driver
         self.change_field_value("firstname", user.firstname)
         self.change_field_value("lastname", user.lastname)
+        self.change_field_value("address1", user.address1)
         self.change_field_value("postcode", user.postcode)
         self.change_field_value("city", user.city)
         self.change_field_value("email", user.email)
+        self.change_field_value("email", user.email)
+        self.change_field_value("phone", user.phone)
         self.change_field_value("password", user.password)
+        select=driver.find_element_by_name("country_code")
+        driver.execute_script("arguments[0].selectedIndex = 3", select)
         self.change_field_value("confirmed_password", user.password)
         driver.find_element_by_name("create_account").click()
         self.app.open_home_page()
@@ -33,11 +38,11 @@ class LitecardHelper:
 
 
     def change_field_value(self, field_name, text):
-        wd = self.app.wd
+        driver = self.app.driver
         if text is not None:
-            wd.find_element_by_name(field_name).click()
-            wd.find_element_by_name(field_name).clear()
-            wd.find_element_by_name(field_name).send_keys(text)
+            driver.find_element_by_name(field_name).click()
+            driver.find_element_by_name(field_name).clear()
+            driver.find_element_by_name(field_name).send_keys(text)
 
 
 

@@ -1,24 +1,14 @@
 [
   {
-    "postcode": "",
+    "password": "EfuL",
+    "lastname": "lastnameYlR",
+    "email": "email@OS.com",
+    "phone": "+48 3  ",
     "id": null,
-    "password": "",
-    "city": "",
-    "py/object": "model.user.User",
-    "email": "",
-    "firstname": "",
-    "phone": "",
-    "lastname": ""
-  },
-  {
+    "address1": "address1OW817n4 ",
+    "firstname": "firstnameOQtHknDb",
     "postcode": "32-600",
-    "id": null,
-    "password": "",
-    "city": "cityLg X",
-    "py/object": "model.user.User",
-    "email": "email@zl.com",
-    "firstname": "firstname4N",
-    "phone": null,
-    "lastname": "lastnameCsbe9nj"
+    "city": "cityO",
+    "py/object": "model.user.User"
   }
 ]

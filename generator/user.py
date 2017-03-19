@@ -38,9 +38,9 @@ def random_string_digits(prefix, maxlen):
 
 
 
-testdata = [User(firstname="", lastname="", postcode="", city="", email="", phone="", password="",)] + [
-    User(firstname=random_string("firstname", 10), lastname=random_string("lastname", 10),
-         postcode="32-600", city=random_string_letters("city", 10),
+testdata = [
+    User(firstname=random_string("firstname", 10), lastname=random_string("lastname", 10), address1=random_string("address1", 10),
+         postcode="32-600", city=random_string_letters("city", 10), phone = random_string_digits("+48", 6),
          email=random_string_letters("email", 1) + "@" +random_string_letters( "", 3)+ ".com", password=random_string_letters("", 7),)
     for i in range(1)
 ]
