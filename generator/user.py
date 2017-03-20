@@ -1,9 +1,11 @@
-from model.user import User
+import getopt
+import os.path
 import random
 import string
-import os.path
+
 import jsonpickle
-import getopt
+
+from model.user import User
 import sys
 
 try:
