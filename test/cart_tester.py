@@ -17,8 +17,7 @@ def test_example(app):
     app.get("http://localhost/litecart/en/checkout")
 
     app.litecard_helper.remove_from_cart()
-    app.litecard_helper.remove_from_cart()
-    app.litecard_helper.remove_from_cart()
+
 
 
 
