@@ -2,7 +2,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support.expected_conditions import _find_element
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 
 
 class LitecardHelper:
@@ -76,8 +76,9 @@ class LitecardHelper:
     def add_first_duck_to_cart(self):
         driver = self.app.driver
         driver.find_element_by_css_selector("li .image-wrapper").click()
-        if len(driver.find_elements_by_name("options[Size]")) > 0:
-            select1 = driver.find_element_by_class_name("options")
+        if len(driver.find_elements_by_xpath("//td[@class='options']//strong[.='Size']")) > 0:
+            select1 = driver.find_element_by_xpath("//td[@class='options']/select")
+
             driver.execute_script("arguments[0].selectedIndex = 1; arguments[0].dispatchEvent(new Event('change'))", select1)
 
         driver.find_element_by_name("add_cart_product").click()
@@ -90,14 +91,14 @@ class LitecardHelper:
         driver = self.app.driver
 
         while self.is_cart_empty() is True:
-            driver.find_element_by_name("remove_cart_item").click()
-            wait = WebDriverWait(driver, 10)  # seconds
-
-            driver.find_element_by_name("remove_cart_item").click()
-            if len(driver.find_elements_by_name("remove_cart_item")) == 0:
-                break
             text_before = driver.find_element_by_id("order_confirmation-wrapper").text
-            wait.until(text_to_change((By.ID, "order_confirmation-wrapper"), text_before))
+            driver.find_element_by_name("remove_cart_item").click()
+            wait = WebDriverWait(driver, 4)  # seconds
+            try:
+                wait.until(text_to_change((By.ID, "order_confirmation-wrapper"), text_before))
+            except TimeoutException:
+                return
+
 
 
 

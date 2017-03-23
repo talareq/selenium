@@ -1,11 +1,3 @@
-from selenium.webdriver.support.wait import WebDriverWait
-from helper.litecard_helper import text_to_change
-from selenium.webdriver.common.by import By
-
-
-
-
-
 
 def test_example(app):
     app.get("http://localhost/litecart/en/")
