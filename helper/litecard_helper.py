@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 
 
+
 class LitecardHelper:
 
     def __init__(self, app):
@@ -98,6 +99,19 @@ class LitecardHelper:
                 wait.until(text_to_change((By.ID, "order_confirmation-wrapper"), text_before))
             except TimeoutException:
                 return
+
+
+    #def wait_for_new_window(self):
+     #   driver = self.app.driver
+     #   WebDriverWait(driver, 20).until(EC.number_of_windows_to_be(2))
+
+
+    def wait_for_new_window(self, timeout=10):
+        driver = self.app.driver
+        handles_before = driver.window_handles
+        yield
+        WebDriverWait(driver, timeout).until(
+            lambda driver: len(handles_before) != len(driver.window_handles))
 
 
 
